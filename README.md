@@ -6,6 +6,8 @@ Android-клієнт для відправки показників лічиль
   * react-native-swipe-list-view
   * react-native-sqlite-storage
 
+[Завантажити](./vodokanal_sumy.apk) програму для Android.
+
 **EN:**
 
 Android client for sending water meter readings to KP "MiskVodokanal" of Sumy City Council.
