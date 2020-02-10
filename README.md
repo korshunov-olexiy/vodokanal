@@ -1,4 +1,4 @@
-#UA:
+**UA:**
 
 Android-клієнт для відправки показників лічильника води в КП "Міськводоканал" Сумської міської ради.
 В програмі використовуються наступні модулі npm:
@@ -6,7 +6,7 @@ Android-клієнт для відправки показників лічиль
   * react-native-swipe-list-view
   * react-native-sqlite-storage
 
-#EN:
+**EN:**
 
 Android client for sending water meter readings to KP "MiskVodokanal" of Sumy City Council.
 The following modules of npm are used in the program:
