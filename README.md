@@ -4,6 +4,7 @@ Android-клієнт для відправки показників лічиль
 В програмі використовуються наступні модулі npm:
   * react-navigation
   * react-native-swipe-list-view
+  * react-native-sqlite-storage
 
 #EN:
 
@@ -11,3 +12,4 @@ Android client for sending water meter readings to KP "MiskVodokanal" of Sumy Ci
 The following modules of npm are used in the program:
   * react-navigation
   * react-native-swipe-list-view
+  * react-native-sqlite-storage
