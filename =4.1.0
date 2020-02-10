@@ -1,0 +1,8 @@
++ react-router-native@5.1.2
+added 1 package and audited 954477 packages in 8.798s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+found 4 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
