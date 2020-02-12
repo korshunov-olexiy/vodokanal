@@ -3,6 +3,7 @@
 <div align="center"> <img src="img/version.png" alt="Version 0.1" width="100"> </div>
 
 **UA:**
+
 Android-клієнт для відправки показників лічильника води в КП "Міськводоканал" Сумської міської ради.
 В програмі використовуються наступні модулі npm:
   * react-navigation
