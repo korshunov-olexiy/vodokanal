@@ -1,4 +1,3 @@
-**UA:**
 <p align="center"><img src="img/app.png" alt="Сумиводоканал" width="100"></p>
 <h1 align="center">Сумиводоканал</h1>
 <div align="center"> <img src="img/version.png" alt="Version 0.1" width="100"> </div>
