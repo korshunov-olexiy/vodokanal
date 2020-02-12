@@ -26,6 +26,5 @@ Vodokanal is an MIT licensed open source project, and the latest version will al
 <div align="center"><img src="img/screenshot/reg.png" alt="Вхід/реєстрація користувача" width="250"> <img src="img/screenshot/delUser.png" alt="Видалення користувача" width="250"> <img src="img/screenshot/cabinet.png" alt="Кабінет користувача" width="250"></div>
 
 <h2>Download and Installation</h2>
-<p>For Android: 
-<a href="./android/app/build/outputs/apk/release/vodokanal_sumy.apk"><img src="img/android.png" alt="Download for Android"></a>
+<p><a href="./android/app/build/outputs/apk/release/vodokanal_sumy.apk"><img src="img/android.png" alt="Download for Android"></a>
 </p>
