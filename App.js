@@ -48,7 +48,7 @@ class RegScreen extends Component {
     }
 
     delUserMsg = (item) => {
-        Alert.alert( 'Видалення користувача', `Насправді видалити користувача ${item.username}?`,
+        Alert.alert( 'Видалення користувача', 'Насправді видалити користувача ${item.username}?',
             [
                 { text: 'Ні', onPress: () => { }, style: 'cancel', },
                 {
@@ -66,15 +66,16 @@ class RegScreen extends Component {
   
     onLogin() {
         const { username, password } = this.state;
-        // check if user exists in DB
         let dt = new Date();
-        let cur_day = dt.getDay();
+        let cur_day = dt.getDate();
+        db.addUser({username, password});
         // Если текущий день больше 15 или меньше 5 - выдать ошибку
-        if (5 > cur_day > 15) { Alert.alert("Помилка", "Показання приймаються з 5 по 15 числа кожного місяца"); }
+        if ((cur_day > 15) || (cur_day < 5)) { 
+            Alert.alert("Помилка", "Показання приймаються з 5 по 15 числа кожного місяца");
+        }
         else {
             if ((username == '')  || (password == '')){ Alert.alert('Помилка входу', "Введіть будь-ласка ім'я користувача та пароль"); }
         else{
-            db.addUser({username, password});
             // login to url and get data
             const URL = "http://vodokanal.sumy.ua/sendform/authorization.php";
             var details = { 'login': username, 'pass': password };

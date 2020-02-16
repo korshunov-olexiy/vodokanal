@@ -1,4 +1,4 @@
-#Mon Feb 10 11:27:47 EET 2020
-base.0=/home/user1/react-native/Vodokanal/android/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
+#Sun Feb 16 06:00:25 EET 2020
+base.0=/home/alexkan/react-native/vodokanal/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
+renamed.0=classes.dex
